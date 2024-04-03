@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Login</title>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+        background-color: #f0f0f0; /* Fallback color */
+        background-image: url('car10.jpg'); /* Background image */
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .login-container {
+        background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+        padding: 40px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        text-align: center;
+    }
+
+    h2 {
+        margin-bottom: 20px;
+    }
+
+    input[type="text"], input[type="password"] {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-sizing: border-box;
+    }
+
+    input[type="submit"] {
+        width: 100%;
+        padding: 10px;
+        background-color: #4CAF50;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+
+    input[type="submit"]:hover {
+        background-color: #45a049;
+    }
+
+    .forgot-password,
+    .register-link,
+    .contact-us {
+        font-size: 0.9rem;
+        color: #555;
+        margin-top: 10px;
+    }
+
+    .register-link {
+        margin-top: 20px;
+    }
+</style>
+</head>
+<body>
+
+<div class="login-container"> <!-- corrected class name -->
+    <h2> Login</h2>
+    <form action="choose45.html" method="get">
+        <input type="text" name="username" placeholder="Username" required>
+        <input type="password" name="password" placeholder="Password" required>
+        <input type="submit" value="Login">
+    </form>
+    <div class="forgot-password">Forgot password? <a href="forgot.html">Reset here</a></div>
+    <div class="register-link">Don't have an account? <a href="register.html">Register</a></div>
+    
+</div>
+
+</body>
+</html>
